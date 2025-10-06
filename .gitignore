@@ -1,0 +1,66 @@
+# Entornos virtuales de Python
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Archivos de datos grandes (raw data)
+data/raw/
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.xls
+
+# Archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.log
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de configuración local
+.env
+.env.local
+.env.*.local
+
+# Archivos de documentación generados por IA
+GEMINI.md
+
+# Archivos de resultados y análisis temporales
+results/
+output/
+temp/
