@@ -32,11 +32,11 @@ MANIFEST
 
 # Archivos de datos grandes (raw data)
 data/raw/
-*.csv
-*.parquet
-*.json
-*.xlsx
-*.xls
+
+# Archivos de datos procesados grandes
+data/processed/spotify_music_intensity_clean.csv
+data/processed/spotify_music_intensity_clean.parquet
+
 
 # Archivos temporales y de sistema
 .DS_Store

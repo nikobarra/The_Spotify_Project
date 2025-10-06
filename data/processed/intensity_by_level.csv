@@ -1,0 +1,6 @@
+intensity_category,intensity_weighted_mean,intensity_weighted_median,intensity_weighted_std,intensity_weighted_min,intensity_weighted_max,energy_mean,energy_median,loudness_mean,loudness_median,track_id_count
+Alta,0.8076,0.8107,0.0577,0.7,0.9,0.757,0.761,-6.982,-6.625,485927
+Baja,0.4113,0.4168,0.0574,0.3,0.5,0.2003,0.202,-16.3232,-16.066,137314
+Media,0.612,0.6178,0.0564,0.5,0.7,0.4661,0.473,-10.1491,-9.804,287713
+Muy Alta,0.9379,0.9373,0.0222,0.9,0.9998,0.9471,0.949,-4.5619,-4.426,246052
+Muy Baja,0.2414,0.2497,0.0433,0.0136,0.3,0.0407,0.0351,-27.4563,-26.5195,42114

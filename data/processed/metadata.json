@@ -1,0 +1,42 @@
+{
+  "proyecto": "Análisis de Intensidad Musical de Spotify",
+  "version": "1.0",
+  "fecha_creacion": "2025-10-06 14:08:04",
+  "archivos_originales": [
+    "data/raw/dataset-of-60s.csv",
+    "data/raw/dataset-of-70s.csv",
+    "data/raw/dataset-of-80s.csv",
+    "data/raw/dataset-of-90s.csv",
+    "data/raw/dataset-of-00s.csv",
+    "data/raw/dataset-of-10s.csv",
+    "data/raw/spotify_data.csv"
+  ],
+  "estadisticas": {
+    "total_canciones": 1199120,
+    "total_columnas": 24,
+    "intensidad_promedio": 0.7221475584266628,
+    "calidad_promedio": 99.92359396891054,
+    "años_cubiertos": {
+      "minimo": 1965,
+      "maximo": 2023
+    },
+    "generos_principales": {
+      "Other": 740993,
+      "Rock": 141746,
+      "Electronic": 100239,
+      "Pop": 86082,
+      "Jazz": 35592
+    }
+  },
+  "archivos_creados": [
+    "spotify_music_intensity_clean.csv",
+    "spotify_music_intensity_clean.parquet",
+    "intensity_by_decade.csv",
+    "intensity_by_decade_genre.csv",
+    "genre_statistics.csv",
+    "intensity_by_level.csv",
+    "README.md",
+    "data_dictionary.md",
+    "metadata.json"
+  ]
+}
