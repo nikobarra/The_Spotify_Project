@@ -1,7 +1,7 @@
 {
   "proyecto": "Análisis de Intensidad Musical de Spotify",
   "version": "1.0",
-  "fecha_creacion": "2025-10-06 14:08:04",
+  "fecha_creacion": "2025-10-07 17:57:06",
   "archivos_originales": [
     "data/raw/dataset-of-60s.csv",
     "data/raw/dataset-of-70s.csv",

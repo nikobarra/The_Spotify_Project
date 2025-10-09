@@ -32,4 +32,4 @@ Estos datos pueden usarse para:
 - **Géneros más tranquilos**: Classical (0.396), Jazz (0.666), Country (0.672)
 - **Calidad de datos**: 99.9/100 puntos de calidad promedio
 
-## Fecha de creación: 2025-10-06 14:08:04
+## Fecha de creación: 2025-10-07 17:57:06
