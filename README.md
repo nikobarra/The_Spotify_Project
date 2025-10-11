@@ -207,7 +207,104 @@ python limpiar_datos.py
 -   ✅ Pipeline de datos automatizado
 
 ---
+# ** Análisis de datos: **
+## ** Cálculos principales: **
+### A. Promedio de Intensidad por Década:
+|   | Década | intensity_simple|
+|---|--------|-----------------|
+|0  |  1960  |         0.622205|
+|1  |  1970  |    0.665786|
+|2  | 1980   |        0.711914|
+|3  |  1990  |      0.715306|
+|4  |  2000  |      0.738132|
+|5  | 2010   |     0.752985|
+|6  | 2020   |    0.740092|
 
-Aca continua la seccion del analisis de datos.
+### B. Top 3 Géneros más Intensos:
+  
+  |           | main_genre |
+ |-----------|------------|
+|Rock         | 0.839659|
+|Latin        | 0.807913|
+|Electronic   | 0.807134|
 
-y aca continua el desarrollo
+- Name: intensity_simple, dtype: float64
+- Bottom 3 Géneros menos Intensos:
+- 
+  |          |  main_genre |
+|-----------|------------|
+ |Country       |0.702340 |
+ |Jazz          |0.694563 |
+ |Classical     |0.439461 |
+Name: intensity_simple, dtype: float64
+
+### ** C. Intensidad: **
+- Año de máxima intensidad: 2020
+- Año de mínima intensidad: 2010
+
+### ** D. Correlación (Pearson) entre Energía e Intensidad: 0.99 **
+
+E. Top 5 Artistas por número de Canciones:
+ artist_name
+Traditional              4265
+Grateful Dead            2329
+Johann Sebastian Bach    2166
+Giacomo Meyerbeer        1345
+Elvis Presley            1273
+Name: count, dtype: int64
+## ** 1. Métrica Clave y Relaciones:**
+- Métrica	Valor	Conclusión Principal
+- Correlación Energía/Intensidad	0.99	Relación Extremadamente Fuerte: La intensidad y la energía miden esencialmente el mismo factor en la música.
+- Década más Intensa (Promedio)	2010	La música más intensa, en promedio, se creó entre 2010 y 2019.
+
+
+## **2. Evolución de la Intensidad por Década: **
+- La intensidad musical ha crecido de forma constante desde los años 60, alcanzando su punto máximo en la década pasada.
+
+ |Década |	Intensidad Promedio (intensity_simple) |
+  |------- |--------------------------------------- |
+ |1960 |	0.622205 |
+ |1970 |	0.665786 |
+ |1980 |	0.711914 |
+ |1990 |	0.715306 |
+ |2000 |	0.738132 |
+ |2010 |	0.752985 (Pico) |
+ |2020 |	0.740092 |
+
+
+### Métrica Temporal Adicional	Resultado
+- Año de Máxima Intensidad (Canción individual)	2020
+- Año de Mínima Intensidad (Canción individual)	2010
+
+
+## ** 3. Intensidad por Género: **
+- El análisis de género muestra una gran disparidad, con el Rock a la cabeza y la Música Clásica muy por debajo.
+
+### ** Top 3 Géneros más Intensos: **
+|Género (main_genre)|	Intensidad Promedio|
+|--------------------- |-------------------- |
+|Rock|	0.839659|
+|Latin|	0.807913|
+|Electronic|	0.807134|
+
+
+### ** Bottom 3 Géneros menos Intensos: **
+|Género (main_genre)|	Intensidad Promedio|
+|--------------------- |-------------------- |
+|Country|	0.702340|
+|Jazz|	0.694563|
+|Classical|	0.439461|
+
+
+## ** 4. Top 5 Artistas por Volumen de Canciones: **
+- Esta lista muestra los artistas con el mayor número de entradas en el dataset, lo que a menudo refleja la inclusión de repertorio clásico o folclórico con múltiples grabaciones.
+
+ |Artista (artist_name) |	Conteo de Canciones |
+  |--------------------- |-------------------- |
+ |Traditional |	4265 |
+ |Grateful Dead |	2329 |
+ |Johann Sebastian Bach |	2166 |
+ |Giacomo Meyerbeer	 |1345 |
+ |Elvis Presley |	1273 |
+
+
